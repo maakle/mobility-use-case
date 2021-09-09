@@ -7,13 +7,7 @@ const PassbaseButton = (props) => {
       apiKey={
         "2b4598cdbb809d8b7a34ba534d76447634ed9a8d58bb498421f72cd8187df048"
       }
-      prefillAttributes={{
-        email: props.email,
-      }}
-      onFinish={(identityAccessKey) => {
-        console.log("Verification complete with key: ", identityAccessKey);
-        Router.push("/");
-      }}
+      onFinish={(identityAccessKey) => {}}
       onError={(errorCode) => {}}
       onStart={() => {}}
     />
